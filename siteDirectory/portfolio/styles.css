@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.cuerpo{
+	background-color: #0C0B26;
+	color: #3985F5;
+}
+.cuerpo:hover{
+	color: #03204B;
+}
+
+.cuerpo2{
+	background-color: #3985F5;
+	color: #03204B;
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
+
+.titulo-navegacion{
+	color: #95EAE6;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.imagen {
+	padding: 2rem;
+}
+
+.bordes {
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 10%;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+}
+
+.fondo-div{
+	--bs-gutter-x: 0;
+	--bs-gutter-y: 0;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	object-fit: cover;
+	max-width: 100%;
+}
+
+.grilla{
+	background-color: #3985F5;
+	height: 100px;
+	width: 100%;
+	margin: 0px auto;
+	position: fixed;
+}
